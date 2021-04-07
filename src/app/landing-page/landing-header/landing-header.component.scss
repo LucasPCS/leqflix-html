@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    h3 {
+        animation: move 1s;
+    }
+}
+
+
+@keyframes move {
+    from {top: 0px;}
+    to {top: 200px;}
+}
